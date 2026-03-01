@@ -1,0 +1,22 @@
+.textarea-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+#textArea {
+    resize: none;
+    overflow: hidden;
+    min-height: 100px;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.char-count {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 12px;
+    color: #999;
+    pointer-events: none;
+}
